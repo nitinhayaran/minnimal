@@ -14,14 +14,7 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
 
-  <!-- For Headings -->
-  <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
-
-  <!-- For Code Blocks and BlockQuotes -->
-  <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono:400,600' rel='stylesheet' type='text/css'>
-
-  <!-- For Text -->
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono|Muli|Open+Sans:400,600' rel='stylesheet' type='text/css'>
 
   <!-- For Code Highlighting  -->
   <link rel="stylesheet" title="Tomorrow - Light" href="http://yandex.st/highlightjs/7.3/styles/tomorrow.min.css">
