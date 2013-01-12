@@ -21,7 +21,7 @@
   <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono:400,600' rel='stylesheet' type='text/css'>
 
   <!-- For Text -->
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
   <!-- For Code Highlighting  -->
   <link rel="stylesheet" title="Tomorrow - Light" href="http://yandex.st/highlightjs/7.3/styles/tomorrow.min.css">

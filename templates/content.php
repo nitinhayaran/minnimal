@@ -29,5 +29,4 @@
     <div class="previous"><?php next_posts_link(__('&larr; Older posts', 'roots')); ?></div>
     <div class="next"><?php previous_posts_link(__('Newer posts &rarr;', 'roots')); ?></div>
   </nav>
-
 <?php endif; ?>

@@ -15,9 +15,9 @@
       </div>
     </footer>
     <nav id="nav-single">
-      <h3 class="assistive-text"><?php _e( 'Post navigation', 'twentyeleven' ); ?></h3>
-      <span class="nav-previous"><?php previous_post_link( '%link', __( '<span class="meta-nav">&larr;</span> Previous', 'twentyeleven' ) ); ?></span>
-      <span class="nav-next"><?php next_post_link( '%link', __( 'Next <span class="meta-nav">&rarr;</span>', 'twentyeleven' ) ); ?></span>
+      <h3 class="assistive-text"><?php _e( 'Post navigation', 'roots' ); ?></h3>
+      <div class="nav-previous"><?php previous_post_link('<span class="link">Previous</span><span class="post-title">%link</span>'); ?></div>
+      <div class="nav-next"><?php next_post_link('<span class="link">Next</span><span class="post-title">%link</span>'); ?></div>
     </nav><!-- #nav-single -->
     <div class="entry-related">
       <?php wp_related_posts()?>
