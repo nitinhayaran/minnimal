@@ -1164,6 +1164,10 @@ h6 {
 .hentry .entry-meta-single time i {
   margin-top: 0px;
 }
+.hentry .entry-meta-single address {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
 .entry-related {
   margin-top: 60px;
 }
