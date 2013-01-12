@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/favicon.ico">
   <title><?php wp_title('|', true, 'right'); bloginfo('name'); ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
