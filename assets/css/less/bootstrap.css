@@ -747,9 +747,6 @@ blockquote {
 }
 blockquote p {
   margin-bottom: 0;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 30px;
 }
 blockquote small {
   display: block;
