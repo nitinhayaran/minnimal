@@ -32,7 +32,14 @@ body {
   background-color: @bodyBackground;
 }
 
-
+::selection {
+  background: @linkColor; /* Safari */
+  color: #fff;
+  }
+::-moz-selection {
+  background: @linkColor; /* Firefox */
+  color: #fff;
+}
 
 /* =============================================================================
    Header
@@ -88,7 +95,7 @@ h1,h2,h3,h4,h5,h6{
   font-family: 'Muli', sans-serif;
   /*text-shadow: 0px 1px 0 #fff, 0px 1px 1px #000;*/
   // color: @green;
-  color: @black;
+  color: #333;
 }
 .hentry {
   font-family: 'Open Sans', sans-serif;
@@ -109,7 +116,7 @@ h1,h2,h3,h4,h5,h6{
 .hentry header {
   h2.entry-title, h1.entry-title{
     font-family: 'Muli', sans-serif;
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: bold;
     text-transform: capitalize;
     letter-spacing: -1px;
@@ -133,7 +140,9 @@ h1,h2,h3,h4,h5,h6{
 .hentry .entry-content, .hentry .entry-summary {
   h1, h2, h3{
     line-height: 1;
-    color: #333;
+  }
+  h1, h2, h3, h4, h5, h6{
+    color: #26c5ae;
   }
   /*
   h4,h5,h6{
@@ -198,7 +207,11 @@ h1,h2,h3,h4,h5,h6{
   blockquote{
     font-family: @monoFontFamily;
   }
-
+  pre{
+    max-height: 400px;
+    overflow-y: auto;
+    margin: 1.5em 0;
+  }
 }
 .hentry footer {
   border-top: 1px solid @lineColor;

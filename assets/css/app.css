@@ -274,13 +274,13 @@ h3 {
   line-height: 48px;
 }
 h1 {
-  font-size: 44px;
+  font-size: 32px;
 }
 h2 {
-  font-size: 36px;
+  font-size: 28px;
 }
 h3 {
-  font-size: 28px;
+  font-size: 24px;
 }
 h4 {
   font-size: 20px;
@@ -947,9 +947,21 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 24px;
-  color: #6a7482;
+  color: #333333;
   text-rendering: optimizeLegibility;
   background-color: #ffffff;
+}
+::selection {
+  background: #fb7d7d;
+  /* Safari */
+
+  color: #fff;
+}
+::-moz-selection {
+  background: #fb7d7d;
+  /* Firefox */
+
+  color: #fff;
 }
 /* =============================================================================
    Header
@@ -987,14 +999,14 @@ h6 {
   font-family: 'Muli', sans-serif;
   /*text-shadow: 0px 1px 0 #fff, 0px 1px 1px #000;*/
 
-  color: #25292e;
+  color: #333;
 }
 .hentry {
   font-family: 'Open Sans', sans-serif;
   vertical-align: baseline;
   font-weight: 400;
   line-height: 1.6;
-  color: #6a7482;
+  color: #333333;
   *zoom: 1;
   margin-bottom: 80px;
 }
@@ -1013,7 +1025,7 @@ h6 {
 .hentry header h2.entry-title,
 .hentry header h1.entry-title {
   font-family: 'Muli', sans-serif;
-  font-size: 2em;
+  font-size: 2.2em;
   font-weight: bold;
   text-transform: capitalize;
   letter-spacing: -1px;
@@ -1051,7 +1063,20 @@ h6 {
 .hentry .entry-content h3,
 .hentry .entry-summary h3 {
   line-height: 1;
-  color: #333;
+}
+.hentry .entry-content h1,
+.hentry .entry-summary h1,
+.hentry .entry-content h2,
+.hentry .entry-summary h2,
+.hentry .entry-content h3,
+.hentry .entry-summary h3,
+.hentry .entry-content h4,
+.hentry .entry-summary h4,
+.hentry .entry-content h5,
+.hentry .entry-summary h5,
+.hentry .entry-content h6,
+.hentry .entry-summary h6 {
+  color: #26c5ae;
 }
 .hentry .entry-content p,
 .hentry .entry-summary p {
@@ -1136,6 +1161,12 @@ h6 {
 .hentry .entry-content blockquote,
 .hentry .entry-summary blockquote {
   font-family: Menlo, Consolas, "Courier New", monospace;
+}
+.hentry .entry-content pre,
+.hentry .entry-summary pre {
+  max-height: 400px;
+  overflow-y: auto;
+  margin: 1.5em 0;
 }
 .hentry footer {
   border-top: 1px solid #fb7d7d;
@@ -1330,7 +1361,7 @@ a:hover {
   padding: 28px 0;
 }
 #banner .intro {
-  color: #6a7482;
+  color: #333333;
   line-height: 1.4;
 }
 #banner .intro img {
@@ -1346,7 +1377,7 @@ a:hover {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
 #banner .intro .focus {
-  color: #6a7482;
+  color: #333333;
   border-bottom: 1px dotted #EEE;
   /*
       &.green{
@@ -1371,7 +1402,7 @@ a:hover {
 #banner #nav-main {
   margin-left: 55%;
   width: 45%;
-  color: #6a7482;
+  color: #333333;
   line-height: 48px;
 }
 #banner #nav-main ul.nav {
@@ -1999,7 +2030,7 @@ a.comment-reply-link > span {
   margin-left: 15px;
 }
 .footer-links li a {
-  color: #6a7482;
+  color: #333333;
 }
 .footer-links li a:hover {
   text-decoration: none;
