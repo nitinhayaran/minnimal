@@ -1,3 +1,8 @@
+<?php
+/*
+Template Name: Archives
+*/
+?>
 <div id="container">
 	<div id="content" role="main">
 		<div class="archives">
