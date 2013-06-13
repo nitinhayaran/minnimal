@@ -40,7 +40,7 @@
       </script>
     </div>
     <div class="intro">
-      <a href="<?php echo home_url(); ?>/"><img  src="https://api.twitter.com/1/users/profile_image?screen_name=nitinhayaran&size=bigger" alt=""></a>
+      <a href="<?php echo home_url(); ?>/"><img  src="http://www.gravatar.com/avatar/f3949b6cc0fc4181d3b92fad900363da" alt=""></a>
       I am <a href="<?php echo home_url(); ?>/about/"><span class="focus pink">Nitin Hayaran</span></a>, a web and application designer/developer and founder of <a targer="_blank" href="http://www.23spaces.com"><span class="focus green">23Spaces</span></a>
     </div>
   </div>
